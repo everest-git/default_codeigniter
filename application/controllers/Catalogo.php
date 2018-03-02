@@ -36,6 +36,14 @@ class Catalogo extends CI_Controller {
 		$this->load->view('plantillas/footer');
 	}
 
+	public function GetAreas(){
+		$data = array(
+					'areas' => $this->Catalogo_model->get_all('AREA')
+				);
+		
+		$this->load->view('catalogos/area/lista', $data);
+	}
+
 	private function listar_catalogo($catalogo, $data)
 	{
 		# code...
