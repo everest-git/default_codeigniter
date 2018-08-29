@@ -23,9 +23,7 @@
 		      <td><a href="<?php echo base_url(); ?>catalogo/detalle/area/<?php echo $row->id_area ?>">Detalle</a></td>
 		    </tr>
 			
-	<?php 
-		} 
-	?>
+	<?php } ?>
 	
     
     

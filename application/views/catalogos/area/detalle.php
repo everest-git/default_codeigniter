@@ -9,7 +9,7 @@
 		</div>
 		<div class="form-group">
 			<label for="area">Área</label>
-			<input type="text" class="form-control" id="txt_area" placeholder="Area" >
+			<input type="text" class="form-control" id="txt_area" placeholder="Área" >
 		</div>
 		<div class="form-group">
 			<label for="siglas">Siglas</label>
